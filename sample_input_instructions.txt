@@ -1,0 +1,10 @@
+Input options for the Column Selector Agent:
+1) Provide a single file path:
+   python column_selector_agent.py --input /path/to/dataset.csv --output ./out
+2) Provide a directory that contains multiple dataset files (CSV, XLSX, JSON):
+   python column_selector_agent.py --input /path/to/folder-with-downloads --output ./out
+3) Provide a comma-separated list of files:
+   python column_selector_agent.py --input file1.csv,file2.xlsx --output ./out
+
+The agent will analyze each file and create `selected_columns.json` and `selected_combined.csv` in the output directory.
+You can pass a `--config` JSON file to tune thresholds; see `config_example.json`.
