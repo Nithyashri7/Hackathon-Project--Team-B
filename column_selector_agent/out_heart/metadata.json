@@ -1,0 +1,66 @@
+{
+    "__target__": "target",
+    "target": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5131707317073171,
+        "missing": 0
+    },
+    "cp": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.9424390243902439,
+        "missing": 0
+    },
+    "chol": {
+        "type": "numeric",
+        "min": 126.0,
+        "max": 564.0,
+        "mean": 246.0,
+        "missing": 0
+    },
+    "ca": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.7541463414634146,
+        "missing": 0
+    },
+    "thalach": {
+        "type": "numeric",
+        "min": 71.0,
+        "max": 202.0,
+        "mean": 149.11414634146342,
+        "missing": 0
+    },
+    "oldpeak": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 6.2,
+        "mean": 1.0715121951219515,
+        "missing": 0
+    },
+    "thal": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 2.32390243902439,
+        "missing": 0
+    },
+    "exang": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.33658536585365856,
+        "missing": 0
+    },
+    "slope": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 1.3853658536585365,
+        "missing": 0
+    }
+}

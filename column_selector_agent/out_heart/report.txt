@@ -1,0 +1,29 @@
+======================================================================
+Life-Sciences Column Selection Report — Combined Clinical Mode
+Dataset: C:\Users\nithyashri.murali\Desktop\Hackathon Project\column_selector_agent\datasets\heart.csv
+Detected domain: cardiology — Cardiac biomarkers and vital signs influencing ischemic disease and functional capacity.
+Rows: 1025   Columns (raw): 14
+
+Selection Table:
+
+| Column   | Status            | Biological Reason                                                                     |
+|----------|-------------------|---------------------------------------------------------------------------------------|
+| target   | Selected (TARGET) | This is the main outcome variable for clinical interpretation.                        |
+| cp       | Selected          | cp relates to heart function or ischemic response influencing clinical outcomes.      |
+| chol     | Selected          | chol relates to heart function or ischemic response influencing clinical outcomes.    |
+| ca       | Selected          | ca indicates cardiovascular stress or perfusion, shaping cardiac risk.                |
+| thalach  | Selected          | thalach relates to heart function or ischemic response influencing clinical outcomes. |
+| oldpeak  | Selected          | oldpeak relates to heart function or ischemic response influencing clinical outcomes. |
+| thal     | Selected          | thal relates to heart function or ischemic response influencing clinical outcomes.    |
+| exang    | Selected          | exang relates to heart function or ischemic response influencing clinical outcomes.   |
+| slope    | Selected          | slope relates to heart function or ischemic response influencing clinical outcomes.   |
+| age      | Rejected          | age is lightly tied to cardiovascular physiology compared to retained markers.        |
+| sex      | Rejected          | sex is lightly tied to cardiovascular physiology compared to retained markers.        |
+| trestbps | Rejected          | trestbps is lightly tied to cardiovascular physiology compared to retained markers.   |
+| fbs      | Rejected          | fbs is lightly tied to cardiovascular physiology compared to retained markers.        |
+| restecg  | Rejected          | restecg is lightly tied to cardiovascular physiology compared to retained markers.    |
+
+Notes:
+- Report is clinician-friendly (biology-based reasoning only).
+- Numeric stats stored separately in metadata.json.
+======================================================================

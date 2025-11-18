@@ -1,0 +1,14 @@
+{
+  "datasets\\heart.csv": {
+    "target": {
+      "reason": "No clear clinical role for domain 'cardiology' — rejected despite MI=0.2702.",
+      "metrics": {
+        "nunique": 2,
+        "missing_fraction": 0.0,
+        "unique_fraction": 0.001951219512195122,
+        "dtype": "int64"
+      },
+      "mi_with_target": 0.27019979809731964
+    }
+  }
+}

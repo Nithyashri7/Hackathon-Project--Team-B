@@ -1,0 +1,41 @@
+======================================================================
+Life-Sciences Column Selection Report — Combined Clinical Mode
+Dataset: C:\Users\nithyashri.murali\Desktop\Hackathon Project\column_selector_agent\datasets\microbes.csv
+Detected domain: oncology — Radiomic and tumor-level descriptors linked to invasiveness, malignancy, and prognosis.
+Rows: 30527   Columns (raw): 26
+
+Selection Table:
+
+| Column          | Status            | Biological Reason                                                                                |
+|-----------------|-------------------|--------------------------------------------------------------------------------------------------|
+| microorganisms  | Selected (TARGET) | This is the main outcome variable for clinical interpretation.                                   |
+| Unnamed: 0      | Selected          | Unnamed: 0 captures radiomic heterogeneity, often associated with aggressive tumor biology.      |
+| raddi           | Selected          | raddi captures radiomic heterogeneity, often associated with aggressive tumor biology.           |
+| ConvexArea      | Selected          | ConvexArea represents tumor size/shape, often correlating with stage and aggressiveness.         |
+| Area            | Selected          | Area represents tumor size/shape, often correlating with stage and aggressiveness.               |
+| Perimeter       | Selected          | Perimeter represents tumor size/shape, often correlating with stage and aggressiveness.          |
+| FilledArea      | Selected          | FilledArea represents tumor size/shape, often correlating with stage and aggressiveness.         |
+| MajorAxisLength | Selected          | MajorAxisLength reflects tumor structural characteristics influencing malignancy behavior.       |
+| MinorAxisLength | Selected          | MinorAxisLength captures radiomic heterogeneity, often associated with aggressive tumor biology. |
+| Extent          | Selected          | Extent represents tumor size or boundary complexity relevant to staging.                         |
+| EquivDiameter   | Selected          | EquivDiameter captures radiomic heterogeneity, often associated with aggressive tumor biology.   |
+| Solidity        | Selected          | Solidity captures radiomic heterogeneity, often associated with aggressive tumor biology.        |
+| Orientation     | Selected          | Orientation captures radiomic heterogeneity, often associated with aggressive tumor biology.     |
+| Centroid1       | Selected          | Centroid1 captures radiomic heterogeneity, often associated with aggressive tumor biology.       |
+| Centroid2       | Selected          | Centroid2 captures radiomic heterogeneity, often associated with aggressive tumor biology.       |
+| ConvexHull4     | Selected          | ConvexHull4 represents tumor size or boundary complexity relevant to staging.                    |
+| Extrema         | Selected          | Extrema reflects tumor structural characteristics influencing malignancy behavior.               |
+| EulerNumber     | Selected          | EulerNumber represents tumor size or boundary complexity relevant to staging.                    |
+| BoundingBox1    | Selected          | BoundingBox1 reflects tumor structural characteristics influencing malignancy behavior.          |
+| BoundingBox2    | Selected          | BoundingBox2 captures radiomic heterogeneity, often associated with aggressive tumor biology.    |
+| BoundingBox3    | Selected          | BoundingBox3 reflects tumor structural characteristics influencing malignancy behavior.          |
+| BoundingBox4    | Selected          | BoundingBox4 reflects tumor structural characteristics influencing malignancy behavior.          |
+| ConvexHull1     | Selected          | ConvexHull1 represents tumor size or boundary complexity relevant to staging.                    |
+| ConvexHull2     | Selected          | ConvexHull2 captures radiomic heterogeneity, often associated with aggressive tumor biology.     |
+| ConvexHull3     | Selected          | ConvexHull3 represents tumor size or boundary complexity relevant to staging.                    |
+| Eccentricity    | Rejected          | Eccentricity overlaps with stronger tumor descriptors and adds limited new biological insight.   |
+
+Notes:
+- Report is clinician-friendly (biology-based reasoning only).
+- Numeric stats stored separately in metadata.json.
+======================================================================

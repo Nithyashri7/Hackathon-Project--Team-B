@@ -1,0 +1,183 @@
+{
+    "__target__": "microorganisms",
+    "microorganisms": {
+        "type": "categorical",
+        "unique": 10,
+        "top_values": [
+            "Ulothrix",
+            "Volvox",
+            "Protozoa",
+            "Aspergillus sp",
+            "Yeast"
+        ],
+        "missing": 0
+    },
+    "Unnamed: 0": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 30526.0,
+        "mean": 15263.0,
+        "missing": 0
+    },
+    "raddi": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 5.214598421069873,
+        "missing": 0
+    },
+    "ConvexArea": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 0.2545959863203066,
+        "missing": 0
+    },
+    "Area": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 0.8027800621089528,
+        "missing": 0
+    },
+    "Perimeter": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 0.8294157820945391,
+        "missing": 0
+    },
+    "FilledArea": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 0.4200222979657352,
+        "missing": 0
+    },
+    "MajorAxisLength": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 1.605158850853343,
+        "missing": 0
+    },
+    "MinorAxisLength": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 1.0141792642578702,
+        "missing": 0
+    },
+    "Extent": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 5.840625205883316,
+        "missing": 0
+    },
+    "EquivDiameter": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 3.6333481115078454,
+        "missing": 0
+    },
+    "Solidity": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 9.67774360074688,
+        "missing": 0
+    },
+    "Orientation": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.751003642808005,
+        "missing": 0
+    },
+    "Centroid1": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.752782979002195,
+        "missing": 0
+    },
+    "Centroid2": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.554286041864577,
+        "missing": 0
+    },
+    "ConvexHull4": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.021988063026173,
+        "missing": 0
+    },
+    "Extrema": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.871832148589775,
+        "missing": 0
+    },
+    "EulerNumber": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 22.380900841877683,
+        "missing": 0
+    },
+    "BoundingBox1": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 10.919026560094343,
+        "missing": 0
+    },
+    "BoundingBox2": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 10.399428676253809,
+        "missing": 0
+    },
+    "BoundingBox3": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 2.0854806695711994,
+        "missing": 0
+    },
+    "BoundingBox4": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 2.640499053297081,
+        "missing": 0
+    },
+    "ConvexHull1": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.113760454679463,
+        "missing": 0
+    },
+    "ConvexHull2": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.113760454679463,
+        "missing": 0
+    },
+    "ConvexHull3": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.046481626101485,
+        "missing": 0
+    }
+}

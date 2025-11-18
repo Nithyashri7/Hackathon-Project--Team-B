@@ -1,0 +1,182 @@
+{
+    "self_employed": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "No",
+            "Yes",
+            "nan"
+        ],
+        "n_missing": 18
+    },
+    "no_employees": {
+        "type": "categorical",
+        "unique": 6,
+        "top_values": [
+            "6-25",
+            "26-100",
+            "More than 1000",
+            "100-500",
+            "1-5"
+        ],
+        "n_missing": 0
+    },
+    "Timestamp": {
+        "type": "categorical",
+        "unique": 1246,
+        "top_values": [
+            "2014-08-27 12:43:28",
+            "2014-08-27 15:55:07",
+            "2014-08-27 12:54:11",
+            "2014-08-27 12:44:51",
+            "2014-08-27 12:37:50"
+        ],
+        "n_missing": 0
+    },
+    "remote_work": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "No",
+            "Yes"
+        ],
+        "n_missing": 0
+    },
+    "benefits": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "Yes",
+            "Don't know",
+            "No"
+        ],
+        "n_missing": 0
+    },
+    "leave": {
+        "type": "categorical",
+        "unique": 5,
+        "top_values": [
+            "Don't know",
+            "Somewhat easy",
+            "Very easy",
+            "Somewhat difficult",
+            "Very difficult"
+        ],
+        "n_missing": 0
+    },
+    "state": {
+        "type": "categorical",
+        "unique": 45,
+        "top_values": [
+            "nan",
+            "CA",
+            "WA",
+            "NY",
+            "TN"
+        ],
+        "n_missing": 515
+    },
+    "Age": {
+        "type": "numeric",
+        "min": -1726.0,
+        "max": 99999999999.0,
+        "mean": 79428148.31135821,
+        "n_missing": 0
+    },
+    "mental_vs_physical": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "Don't know",
+            "Yes",
+            "No"
+        ],
+        "n_missing": 0
+    },
+    "Country": {
+        "type": "categorical",
+        "unique": 48,
+        "top_values": [
+            "United States",
+            "United Kingdom",
+            "Canada",
+            "Germany",
+            "Netherlands"
+        ],
+        "n_missing": 0
+    },
+    "seek_help": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "No",
+            "Don't know",
+            "Yes"
+        ],
+        "n_missing": 0
+    },
+    "anonymity": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "Don't know",
+            "Yes",
+            "No"
+        ],
+        "n_missing": 0
+    },
+    "phys_health_consequence": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "No",
+            "Maybe",
+            "Yes"
+        ],
+        "n_missing": 0
+    },
+    "mental_health_consequence": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "No",
+            "Maybe",
+            "Yes"
+        ],
+        "n_missing": 0
+    },
+    "Gender": {
+        "type": "categorical",
+        "unique": 49,
+        "top_values": [
+            "Male",
+            "male",
+            "Female",
+            "M",
+            "female"
+        ],
+        "n_missing": 0
+    },
+    "work_interfere": {
+        "type": "categorical",
+        "unique": 4,
+        "top_values": [
+            "Sometimes",
+            "nan",
+            "Never",
+            "Rarely",
+            "Often"
+        ],
+        "n_missing": 264
+    },
+    "mental_health_interview": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "No",
+            "Maybe",
+            "Yes"
+        ],
+        "n_missing": 0
+    }
+}

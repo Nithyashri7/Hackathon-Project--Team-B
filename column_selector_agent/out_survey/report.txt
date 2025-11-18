@@ -1,0 +1,42 @@
+======================================================================
+Life-Sciences Friendly Column Selection Report — Combined Clinical Mode
+Dataset: C:\Users\nithyashri.murali\Desktop\Hackathon Project\column_selector_agent\datasets\survey.csv
+Detected domain: cardiology — Cardiac biomarkers and vital signs linked to ischemic disease and functional capacity.
+Rows: 1259   Columns (raw): 27
+
+Selection Table:
+
+| Column | Status | Biological Reason |
+|--------|--------|-------------------|
+| self_employed | Selected (TARGET) | Target variable used for outcome modeling and clinical interpretation. |
+| no_employees | Selected | no_employees reflects myocardial function or ischemic response, directly linked to symptomatic disease. |
+| Timestamp | Selected | Timestamp reflects myocardial function or ischemic response, directly linked to symptomatic disease. |
+| remote_work | Selected | remote_work is a core cardiovascular risk marker tied to atherosclerotic burden and clinical events. |
+| benefits | Selected | benefits reflects myocardial function or ischemic response, directly linked to symptomatic disease. |
+| leave | Selected | leave modifies prognosis through physiological reserve and comorbidity influence. |
+| state | Selected | state reflects myocardial function or ischemic response, directly linked to symptomatic disease. |
+| Age | Selected | Age reflects myocardial function or ischemic response, directly linked to symptomatic disease. |
+| mental_vs_physical | Selected | mental_vs_physical reflects myocardial function or ischemic response, directly linked to symptomatic disease. |
+| Country | Selected | Country reflects myocardial function or ischemic response, directly linked to symptomatic disease. |
+| seek_help | Selected | seek_help reflects myocardial function or ischemic response, directly linked to symptomatic disease. |
+| anonymity | Selected | anonymity modifies prognosis through physiological reserve and comorbidity influence. |
+| phys_health_consequence | Selected | phys_health_consequence is a core cardiovascular risk marker tied to atherosclerotic burden and clinical events. |
+| mental_health_consequence | Selected | mental_health_consequence modifies prognosis through physiological reserve and comorbidity influence. |
+| Gender | Selected | Gender is a core cardiovascular risk marker tied to atherosclerotic burden and clinical events. |
+| work_interfere | Selected | work_interfere reflects myocardial function or ischemic response, directly linked to symptomatic disease. |
+| mental_health_interview | Selected | mental_health_interview is a core cardiovascular risk marker tied to atherosclerotic burden and clinical events. |
+| family_history | Rejected | family_history is influenced by confounders and rarely adds incremental clinical mechanistic information beyond core biomarkers. |
+| treatment | Rejected | treatment is often a technical or administrative field rather than a mechanism-linked biomarker. |
+| tech_company | Rejected | tech_company is influenced by confounders and rarely adds incremental clinical mechanistic information beyond core biomarkers. |
+| care_options | Rejected | care_options is often a technical or administrative field rather than a mechanism-linked biomarker. |
+| wellness_program | Rejected | wellness_program is influenced by confounders and rarely adds incremental clinical mechanistic information beyond core biomarkers. |
+| coworkers | Rejected | coworkers is influenced by confounders and rarely adds incremental clinical mechanistic information beyond core biomarkers. |
+| supervisor | Rejected | supervisor is often a technical or administrative field rather than a mechanism-linked biomarker. |
+| phys_health_interview | Rejected | phys_health_interview is often a technical or administrative field rather than a mechanism-linked biomarker. |
+| obs_consequence | Rejected | obs_consequence is influenced by confounders and rarely adds incremental clinical mechanistic information beyond core biomarkers. |
+| comments | Rejected | comments is often a technical or administrative field rather than a mechanism-linked biomarker. |
+
+Notes:
+- This table is tailored for clinical / biological interpretation. It intentionally omits numeric summaries (min/max/mean).
+- Detailed numeric metadata for selected features is stored in metadata.json.
+======================================================================
