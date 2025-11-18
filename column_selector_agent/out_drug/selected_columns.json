@@ -1,0 +1,579 @@
+[
+  {
+    "file": "datasets\\Drug\\DDH Data with Properties.csv",
+    "n_rows": 104,
+    "n_cols": 40,
+    "columns": {
+      "CID": {
+        "type": "numeric",
+        "nunique": 102,
+        "missing_fraction": 0.0,
+        "unique_fraction": 0.9807692307692307,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 135427623.0,
+        "mean": 35390892.692307696,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "SMILES": {
+        "type": "categorical",
+        "nunique": 104,
+        "missing_fraction": 0.0,
+        "unique_fraction": 1.0,
+        "mutual_info_max": 0.0,
+        "top_sample": [
+          "ClC1=CC(NC(=O)CSC2=NC=CC(=N2)C2=CSC(=N2)C2=CC=CC=C2)=CC(Cl)=C1",
+          "CN1N=C(C=C1C(F)(F)F)C1=CC=C(S1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1",
+          "CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1",
+          "CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=CC=C2Cl)=N1",
+          "CC1=NC(=CS1)C1=NC(=CS1)C1=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=NC=C1",
+          "ClC1=CC=C(NC(=O)CSC2=NC=CC(=N2)C2=CC(=NO2)C2=CC=CC=C2)C=C1"
+        ],
+        "reason_hint": "Structural identifier (SMILES) \u2014 not a target"
+      },
+      "MolecularFormula": {
+        "type": "categorical",
+        "nunique": 93,
+        "missing_fraction": 0.0,
+        "unique_fraction": 0.8942307692307693,
+        "mutual_info_max": 4.487701146642835,
+        "top_sample": [
+          "C16H9ClN2O5",
+          "0",
+          "C22H19ClN4OS4",
+          "C19H16ClN3O3S",
+          "C11H7ClN2O2",
+          "C12H7ClN2O4"
+        ],
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "MolecularWeight": {
+        "type": "numeric",
+        "nunique": 93,
+        "missing_fraction": 0.0,
+        "unique_fraction": 0.8942307692307693,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 588.6,
+        "mean": 367.8679807692308,
+        "reason_hint": "Physicochemical property"
+      },
+      "InChI": {
+        "type": "categorical",
+        "nunique": 102,
+        "missing_fraction": 0.0,
+        "unique_fraction": 0.9807692307692307,
+        "mutual_info_max": 4.6127001600451765,
+        "top_sample": [
+          "0",
+          "InChI=1S/C21H14Cl2N4OS2/c22-14-8-15(23)10-16(9-14)25-19(28)12-30-21-24-7-6-17(27-21)18-11-29-20(26-18)13-4-2-1-3-5-13/h1-11H,12H2,(H,25,28)",
+          "InChI=1S/C21H15ClF3N5OS2/c1-30-18(21(23,24)25)10-15(29-30)17-7-6-16(33-17)14-8-9-26-20(28-14)32-11-19(31)27-13-4-2-12(22)3-5-13/h2-10H,11H2,1H3,(H,27,31)",
+          "InChI=1S/C22H19ClN4OS4/c1-12-10-30-20(25-12)19-13(2)18(21(29-3)32-19)16-8-9-24-22(27-16)31-11-17(28)26-15-6-4-14(23)5-7-15/h4-10H,11H2,1-3H3,(H,26,28)",
+          "InChI=1S/C22H19ClN4OS4/c1-12-10-30-20(25-12)19-13(2)18(21(29-3)32-19)16-8-9-24-22(27-16)31-11-17(28)26-15-7-5-4-6-14(15)23/h4-10H,11H2,1-3H3,(H,26,28)",
+          "InChI=1S/C19H14ClN5OS3/c1-11-22-16(9-27-11)18-24-15(8-28-18)14-6-7-21-19(25-14)29-10-17(26)23-13-4-2-12(20)3-5-13/h2-9H,10H2,1H3,(H,23,26)"
+        ],
+        "reason_hint": "Structural identifier (InChI) \u2014 not a target"
+      },
+      "InChIKey": {
+        "type": "categorical",
+        "nunique": 101,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.9711538461538461,
+        "mutual_info_max": 4.6127001600451765,
+        "top_sample": [
+          "__MISSING__",
+          "LILOEJREEQFTPM-UHFFFAOYSA-N",
+          "AWQBIBTZJKFLEW-UHFFFAOYSA-N",
+          "WRXXISITJDZVCL-UHFFFAOYSA-N",
+          "NNVVKOVHRSDRSQ-UHFFFAOYSA-N",
+          "JEZYTEDGOJCVQS-UHFFFAOYSA-N"
+        ],
+        "reason_hint": "Structural identifier (InChI) \u2014 not a target"
+      },
+      "IUPACName": {
+        "type": "categorical",
+        "nunique": 101,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.9711538461538461,
+        "mutual_info_max": 4.6127001600451765,
+        "top_sample": [
+          "__MISSING__",
+          "N-(3,5-dichlorophenyl)-2-[4-(2-phenyl-1,3-thiazol-4-yl)pyrimidin-2-yl]sulfanylacetamide",
+          "N-(4-chlorophenyl)-2-[4-[5-[1-methyl-5-(trifluoromethyl)pyrazol-3-yl]thiophen-2-yl]pyrimidin-2-yl]sulfanylacetamide",
+          "N-(4-chlorophenyl)-2-[4-[4-methyl-2-methylsulfanyl-5-(4-methyl-1,3-thiazol-2-yl)thiophen-3-yl]pyrimidin-2-yl]sulfanylacetamide",
+          "N-(2-chlorophenyl)-2-[4-[4-methyl-2-methylsulfanyl-5-(4-methyl-1,3-thiazol-2-yl)thiophen-3-yl]pyrimidin-2-yl]sulfanylacetamide",
+          "N-(4-chlorophenyl)-2-[4-[2-(2-methyl-1,3-thiazol-4-yl)-1,3-thiazol-4-yl]pyrimidin-2-yl]sulfanylacetamide"
+        ],
+        "reason_hint": "Chemical name \u2014 identity"
+      },
+      "XLogP": {
+        "type": "numeric",
+        "nunique": 48,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.46153846153846156,
+        "mutual_info_max": 0.0,
+        "min": -0.6,
+        "max": 7.3,
+        "mean": 3.2079207920792085,
+        "reason_hint": "Lipophilicity (logP)"
+      },
+      "ExactMass": {
+        "type": "numeric",
+        "nunique": 92,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.8846153846153846,
+        "mutual_info_max": 0.0,
+        "min": 212.007805,
+        "max": 588.177766,
+        "mean": 378.26133475247525,
+        "reason_hint": "Physicochemical property"
+      },
+      "MonoisotopicMass": {
+        "type": "numeric",
+        "nunique": 92,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.8846153846153846,
+        "mutual_info_max": 0.0,
+        "min": 212.007805,
+        "max": 588.177766,
+        "mean": 378.22178029702974,
+        "reason_hint": "Physicochemical property"
+      },
+      "TPSA": {
+        "type": "numeric",
+        "nunique": 58,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.5576923076923077,
+        "mutual_info_max": 0.0,
+        "min": 34.1,
+        "max": 197.0,
+        "mean": 101.01782178217822,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "Complexity": {
+        "type": "numeric",
+        "nunique": 90,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.8653846153846154,
+        "mutual_info_max": 0.0,
+        "min": 242.0,
+        "max": 960.0,
+        "mean": 576.3366336633663,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "Charge": {
+        "type": "numeric",
+        "nunique": 1,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.009615384615384616,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "HBondDonorCount": {
+        "type": "numeric",
+        "nunique": 4,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.038461538461538464,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.693069306930693,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "HBondAcceptorCount": {
+        "type": "numeric",
+        "nunique": 10,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.09615384615384616,
+        "mutual_info_max": 0.0,
+        "min": 2.0,
+        "max": 12.0,
+        "mean": 5.732673267326732,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "RotatableBondCount": {
+        "type": "numeric",
+        "nunique": 12,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.11538461538461539,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 18.0,
+        "mean": 4.079207920792079,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "HeavyAtomCount": {
+        "type": "numeric",
+        "nunique": 23,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.22115384615384615,
+        "mutual_info_max": 0.0,
+        "min": 13.0,
+        "max": 41.0,
+        "mean": 25.217821782178216,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "IsotopeAtomCount": {
+        "type": "numeric",
+        "nunique": 1,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.009615384615384616,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "AtomStereoCount": {
+        "type": "numeric",
+        "nunique": 3,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.028846153846153848,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.12871287128712872,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "DefinedAtomStereoCount": {
+        "type": "numeric",
+        "nunique": 1,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.009615384615384616,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "UndefinedAtomStereoCount": {
+        "type": "numeric",
+        "nunique": 3,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.028846153846153848,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.12871287128712872,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "BondStereoCount": {
+        "type": "numeric",
+        "nunique": 3,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.028846153846153848,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.0297029702970297,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "DefinedBondStereoCount": {
+        "type": "numeric",
+        "nunique": 3,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.028846153846153848,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.0297029702970297,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "UndefinedBondStereoCount": {
+        "type": "numeric",
+        "nunique": 1,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.009615384615384616,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "CovalentUnitCount": {
+        "type": "numeric",
+        "nunique": 1,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.009615384615384616,
+        "mutual_info_max": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "Volume3D": {
+        "type": "numeric",
+        "nunique": 98,
+        "missing_fraction": 0.028846153846153848,
+        "unique_fraction": 0.9423076923076923,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 388.4,
+        "mean": 269.81485148514855,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "XStericQuadrupole3D": {
+        "type": "numeric",
+        "nunique": 93,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.8942307692307693,
+        "mutual_info_max": 0.0,
+        "min": 5.3,
+        "max": 35.53,
+        "mean": 11.7998,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "YStericQuadrupole3D": {
+        "type": "numeric",
+        "nunique": 90,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.8653846153846154,
+        "mutual_info_max": 0.0,
+        "min": 1.21,
+        "max": 8.28,
+        "mean": 3.6864999999999997,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "ZStericQuadrupole3D": {
+        "type": "numeric",
+        "nunique": 76,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.7307692307692307,
+        "mutual_info_max": 0.0,
+        "min": 0.6,
+        "max": 2.96,
+        "mean": 1.5716999999999999,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "FeatureCount3D": {
+        "type": "numeric",
+        "nunique": 10,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.09615384615384616,
+        "mutual_info_max": 0.0,
+        "min": 4.0,
+        "max": 13.0,
+        "mean": 8.45,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "FeatureAcceptorCount3D": {
+        "type": "numeric",
+        "nunique": 7,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.0673076923076923,
+        "mutual_info_max": 0.0,
+        "min": 1.0,
+        "max": 7.0,
+        "mean": 3.75,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "FeatureDonorCount3D": {
+        "type": "numeric",
+        "nunique": 4,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.038461538461538464,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.66,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "FeatureAnionCount3D": {
+        "type": "numeric",
+        "nunique": 3,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.028846153846153848,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.23,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "FeatureCationCount3D": {
+        "type": "numeric",
+        "nunique": 3,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.028846153846153848,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.32,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "FeatureRingCount3D": {
+        "type": "numeric",
+        "nunique": 5,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.04807692307692308,
+        "mutual_info_max": 0.0,
+        "min": 2.0,
+        "max": 6.0,
+        "mean": 3.22,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "FeatureHydrophobeCount3D": {
+        "type": "numeric",
+        "nunique": 3,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.028846153846153848,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.27,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "ConformerModelRMSD3D": {
+        "type": "numeric",
+        "nunique": 5,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.04807692307692308,
+        "mutual_info_max": 0.0,
+        "min": 0.6,
+        "max": 1.4,
+        "mean": 0.7979999999999997,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "EffectiveRotorCount3D": {
+        "type": "numeric",
+        "nunique": 28,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.2692307692307692,
+        "mutual_info_max": 0.0,
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 4.965999999999999,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "ConformerCount3D": {
+        "type": "numeric",
+        "nunique": 8,
+        "missing_fraction": 0.038461538461538464,
+        "unique_fraction": 0.07692307692307693,
+        "mutual_info_max": 0.0,
+        "min": 1.0,
+        "max": 10.0,
+        "mean": 8.89,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "pIC50": {
+        "type": "categorical",
+        "nunique": 74,
+        "missing_fraction": 0.0,
+        "unique_fraction": 0.7115384615384616,
+        "mutual_info_max": 4.084885581483977,
+        "top_sample": [
+          "BLINDED",
+          "-1.176091259",
+          "-2.301029996",
+          "-1.602059991",
+          "-1.204119983",
+          "-0.477121255"
+        ],
+        "reason_hint": "Drug potency label"
+      }
+    },
+    "selected_columns": [
+      "InChI",
+      "InChIKey",
+      "IUPACName",
+      "MolecularFormula",
+      "pIC50",
+      "CID",
+      "SMILES",
+      "MolecularWeight",
+      "XLogP",
+      "ExactMass",
+      "MonoisotopicMass",
+      "TPSA",
+      "Complexity",
+      "HBondDonorCount",
+      "HBondAcceptorCount",
+      "RotatableBondCount",
+      "HeavyAtomCount",
+      "AtomStereoCount",
+      "UndefinedAtomStereoCount",
+      "BondStereoCount",
+      "DefinedBondStereoCount",
+      "Volume3D",
+      "XStericQuadrupole3D",
+      "YStericQuadrupole3D",
+      "ZStericQuadrupole3D",
+      "FeatureCount3D",
+      "FeatureAcceptorCount3D",
+      "FeatureDonorCount3D",
+      "FeatureAnionCount3D",
+      "FeatureCationCount3D",
+      "FeatureRingCount3D",
+      "FeatureHydrophobeCount3D",
+      "ConformerModelRMSD3D",
+      "EffectiveRotorCount3D",
+      "ConformerCount3D"
+    ],
+    "rejected_columns": {
+      "Charge": "Low MI & low variance",
+      "IsotopeAtomCount": "Low MI & low variance",
+      "DefinedAtomStereoCount": "Low MI & low variance",
+      "UndefinedBondStereoCount": "Low MI & low variance",
+      "CovalentUnitCount": "Low MI & low variance"
+    }
+  },
+  {
+    "file": "datasets\\Drug\\DDH Data.csv",
+    "n_rows": 104,
+    "n_cols": 3,
+    "columns": {
+      "Compound No.": {
+        "type": "numeric",
+        "nunique": 104,
+        "missing_fraction": 0.0,
+        "unique_fraction": 1.0,
+        "mutual_info_max": 0.0,
+        "min": 1.0,
+        "max": 104.0,
+        "mean": 52.5,
+        "reason_hint": "Preserved for modeling (data-driven)"
+      },
+      "SMILES": {
+        "type": "categorical",
+        "nunique": 104,
+        "missing_fraction": 0.0,
+        "unique_fraction": 1.0,
+        "mutual_info_max": 0.0,
+        "top_sample": [
+          "ClC1=CC(NC(=O)CSC2=NC=CC(=N2)C2=CSC(=N2)C2=CC=CC=C2)=CC(Cl)=C1",
+          "CN1N=C(C=C1C(F)(F)F)C1=CC=C(S1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1",
+          "CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1",
+          "CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=CC=C2Cl)=N1",
+          "CC1=NC(=CS1)C1=NC(=CS1)C1=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=NC=C1",
+          "ClC1=CC=C(NC(=O)CSC2=NC=CC(=N2)C2=CC(=NO2)C2=CC=CC=C2)C=C1"
+        ],
+        "reason_hint": "Structural identifier (SMILES) \u2014 not a target"
+      },
+      "pIC50 (IC50 in microM)": {
+        "type": "categorical",
+        "nunique": 74,
+        "missing_fraction": 0.0,
+        "unique_fraction": 0.7115384615384616,
+        "mutual_info_max": 4.084885581483977,
+        "top_sample": [
+          "BLINDED",
+          "-1.176091259",
+          "-2.301029996",
+          "-1.602059991",
+          "-1.204119983",
+          "-0.477121255"
+        ],
+        "reason_hint": "Drug potency label"
+      }
+    },
+    "selected_columns": [
+      "pIC50 (IC50 in microM)",
+      "Compound No.",
+      "SMILES"
+    ],
+    "rejected_columns": {}
+  }
+]

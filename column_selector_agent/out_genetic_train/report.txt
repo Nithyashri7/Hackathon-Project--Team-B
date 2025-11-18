@@ -1,0 +1,60 @@
+======================================================================
+Life-Sciences Column Selection Report — Combined Clinical Mode
+Dataset: C:\Users\nithyashri.murali\Desktop\Hackathon Project\column_selector_agent\datasets\genetic_disorder\train_genetic_disorders.csv
+Detected domain: genomics — Gene expression and variant features representing biological pathway activity.
+Rows: 22083   Columns (raw): 45
+
+Selection Table:
+
+| Column                                           | Status            | Biological Reason                                                                                                                   |
+|--------------------------------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Status                                           | Selected (TARGET) | This is the main outcome variable for clinical interpretation.                                                                      |
+| Autopsy shows birth defect (if applicable)       | Selected          | Autopsy shows birth defect (if applicable) shows biological variation relevant to the underlying clinical outcome.                  |
+| Father's name                                    | Selected          | Father's name shows biological variation relevant to the underlying clinical outcome.                                               |
+| Patient Id                                       | Selected          | Patient Id shows biological variation relevant to the underlying clinical outcome.                                                  |
+| Patient First Name                               | Selected          | Patient First Name shows biological variation relevant to the underlying clinical outcome.                                          |
+| Location of Institute                            | Selected          | Location of Institute shows biological variation relevant to the underlying clinical outcome.                                       |
+| Genes in mother's side                           | Selected          | Genes in mother's side shows biological variation relevant to the underlying clinical outcome.                                      |
+| Paternal gene                                    | Selected          | Paternal gene shows biological variation relevant to the underlying clinical outcome.                                               |
+| Inherited from father                            | Selected          | Inherited from father shows biological variation relevant to the underlying clinical outcome.                                       |
+| Folic acid details (peri-conceptional)           | Selected          | Folic acid details (peri-conceptional) shows biological variation relevant to the underlying clinical outcome.                      |
+| H/O serious maternal illness                     | Selected          | H/O serious maternal illness shows biological variation relevant to the underlying clinical outcome.                                |
+| H/O substance abuse                              | Selected          | H/O substance abuse shows biological variation relevant to the underlying clinical outcome.                                         |
+| Heart Rate (rates/min                            | Selected          | Heart Rate (rates/min shows biological variation relevant to the underlying clinical outcome.                                       |
+| Follow-up                                        | Selected          | Follow-up shows biological variation relevant to the underlying clinical outcome.                                                   |
+| Respiratory Rate (breaths/min)                   | Selected          | Respiratory Rate (breaths/min) shows biological variation relevant to the underlying clinical outcome.                              |
+| History of anomalies in previous pregnancies     | Selected          | History of anomalies in previous pregnancies shows biological variation relevant to the underlying clinical outcome.                |
+| Genetic Disorder                                 | Selected          | Genetic Disorder shows biological variation relevant to the underlying clinical outcome.                                            |
+| Blood test result                                | Selected          | Blood test result shows biological variation relevant to the underlying clinical outcome.                                           |
+| Place of birth                                   | Selected          | Place of birth shows biological variation relevant to the underlying clinical outcome.                                              |
+| Birth defects                                    | Selected          | Birth defects shows biological variation relevant to the underlying clinical outcome.                                               |
+| Parental consent                                 | Selected          | Parental consent shows biological variation relevant to the underlying clinical outcome.                                            |
+| Gender                                           | Selected          | Gender shows biological variation relevant to the underlying clinical outcome.                                                      |
+| H/O radiation exposure (x-ray)                   | Selected          | H/O radiation exposure (x-ray) shows biological variation relevant to the underlying clinical outcome.                              |
+| Assisted conception IVF/ART                      | Selected          | Assisted conception IVF/ART shows biological variation relevant to the underlying clinical outcome.                                 |
+| Disorder Subclass                                | Selected          | Disorder Subclass shows biological variation relevant to the underlying clinical outcome.                                           |
+| Birth asphyxia                                   | Selected          | Birth asphyxia shows biological variation relevant to the underlying clinical outcome.                                              |
+| Maternal gene                                    | Selected          | Maternal gene shows biological variation relevant to the underlying clinical outcome.                                               |
+| Patient Age                                      | Rejected          | Patient Age contributes minimal direct biological interpretation relative to selected markers.                                      |
+| Blood cell count (mcL)                           | Rejected          | Blood cell count (mcL) contributes minimal direct biological interpretation relative to selected markers.                           |
+| Family Name                                      | Rejected          | Family Name contributes minimal direct biological interpretation relative to selected markers.                                      |
+| Mother's age                                     | Rejected          | Mother's age contributes minimal direct biological interpretation relative to selected markers.                                     |
+| Father's age                                     | Rejected          | Father's age contributes minimal direct biological interpretation relative to selected markers.                                     |
+| Institute Name                                   | Rejected          | Institute Name contributes minimal direct biological interpretation relative to selected markers.                                   |
+| Test 1                                           | Rejected          | Test 1 contributes minimal direct biological interpretation relative to selected markers.                                           |
+| Test 2                                           | Rejected          | Test 2 contributes minimal direct biological interpretation relative to selected markers.                                           |
+| Test 3                                           | Rejected          | Test 3 contributes minimal direct biological interpretation relative to selected markers.                                           |
+| Test 4                                           | Rejected          | Test 4 contributes minimal direct biological interpretation relative to selected markers.                                           |
+| Test 5                                           | Rejected          | Test 5 contributes minimal direct biological interpretation relative to selected markers.                                           |
+| No. of previous abortion                         | Rejected          | No. of previous abortion contributes minimal direct biological interpretation relative to selected markers.                         |
+| White Blood cell count (thousand per microliter) | Rejected          | White Blood cell count (thousand per microliter) contributes minimal direct biological interpretation relative to selected markers. |
+| Symptom 1                                        | Rejected          | Symptom 1 contributes minimal direct biological interpretation relative to selected markers.                                        |
+| Symptom 2                                        | Rejected          | Symptom 2 contributes minimal direct biological interpretation relative to selected markers.                                        |
+| Symptom 3                                        | Rejected          | Symptom 3 contributes minimal direct biological interpretation relative to selected markers.                                        |
+| Symptom 4                                        | Rejected          | Symptom 4 contributes minimal direct biological interpretation relative to selected markers.                                        |
+| Symptom 5                                        | Rejected          | Symptom 5 contributes minimal direct biological interpretation relative to selected markers.                                        |
+
+Notes:
+- Report is clinician-friendly (biology-based reasoning only).
+- Numeric stats stored separately in metadata.json.
+======================================================================

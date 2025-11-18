@@ -1,0 +1,293 @@
+{
+    "__target__": "Status",
+    "Status": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Alive",
+            "Deceased",
+            "nan"
+        ],
+        "missing": 1072
+    },
+    "Autopsy shows birth defect (if applicable)": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "Not applicable",
+            "nan",
+            "Yes",
+            "No"
+        ],
+        "missing": 5236
+    },
+    "Father's name": {
+        "type": "categorical",
+        "unique": 15777,
+        "top_values": [
+            "nan",
+            "Sager",
+            "Clardie",
+            "Hafiz",
+            "Lucciano"
+        ],
+        "missing": 1072
+    },
+    "Patient Id": {
+        "type": "categorical",
+        "unique": 21011,
+        "top_values": [
+            "nan",
+            "PID0x4ac8",
+            "PID0x81a2",
+            "PID0x6d89",
+            "PID0x6418"
+        ],
+        "missing": 1072
+    },
+    "Patient First Name": {
+        "type": "categorical",
+        "unique": 2480,
+        "top_values": [
+            "nan",
+            "James",
+            "John",
+            "Robert",
+            "Mary"
+        ],
+        "missing": 1072
+    },
+    "Location of Institute": {
+        "type": "categorical",
+        "unique": 26,
+        "top_values": [
+            "-",
+            "nan",
+            "125 PARKER HILL AV\nJAMAICA PLAIN, MA 02120\n(42.329611374844326, -71.10616871232227)",
+            "249 RIVER ST\nMATTAPAN, MA 02126\n(42.27137912172521, -71.08168028446168)",
+            "2100 DORCHESTER AV\nDORCHESTER, MA 02124\n(42.27854306401838, -71.06631280050811)"
+        ],
+        "missing": 1072
+    },
+    "Genes in mother's side": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Yes",
+            "No",
+            "nan"
+        ],
+        "missing": 1072
+    },
+    "Paternal gene": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "No",
+            "Yes",
+            "nan"
+        ],
+        "missing": 1072
+    },
+    "Inherited from father": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "No",
+            "Yes",
+            "nan"
+        ],
+        "missing": 1359
+    },
+    "Folic acid details (peri-conceptional)": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Yes",
+            "No",
+            "nan"
+        ],
+        "missing": 3085
+    },
+    "H/O serious maternal illness": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "No",
+            "Yes",
+            "nan"
+        ],
+        "missing": 3124
+    },
+    "H/O substance abuse": {
+        "type": "categorical",
+        "unique": 4,
+        "top_values": [
+            "-",
+            "No",
+            "Yes",
+            "Not applicable",
+            "nan"
+        ],
+        "missing": 3162
+    },
+    "Heart Rate (rates/min": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Normal",
+            "Tachycardia",
+            "nan"
+        ],
+        "missing": 3097
+    },
+    "Follow-up": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Low",
+            "High",
+            "nan"
+        ],
+        "missing": 3142
+    },
+    "Respiratory Rate (breaths/min)": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Normal (30-60)",
+            "Tachypnea",
+            "nan"
+        ],
+        "missing": 3131
+    },
+    "History of anomalies in previous pregnancies": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Yes",
+            "No",
+            "nan"
+        ],
+        "missing": 3138
+    },
+    "Genetic Disorder": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "Mitochondrial genetic inheritance disorders",
+            "Single-gene inheritance diseases",
+            "nan",
+            "Multifactorial genetic inheritance disorders"
+        ],
+        "missing": 3121
+    },
+    "Blood test result": {
+        "type": "categorical",
+        "unique": 4,
+        "top_values": [
+            "slightly abnormal",
+            "inconclusive",
+            "normal",
+            "abnormal",
+            "nan"
+        ],
+        "missing": 3106
+    },
+    "Place of birth": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Institute",
+            "Home",
+            "nan"
+        ],
+        "missing": 3090
+    },
+    "Birth defects": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Singular",
+            "Multiple",
+            "nan"
+        ],
+        "missing": 3124
+    },
+    "Parental consent": {
+        "type": "categorical",
+        "unique": 1,
+        "top_values": [
+            "Yes",
+            "nan"
+        ],
+        "missing": 3092
+    },
+    "Gender": {
+        "type": "categorical",
+        "unique": 3,
+        "top_values": [
+            "Ambiguous",
+            "Male",
+            "Female",
+            "nan"
+        ],
+        "missing": 3135
+    },
+    "H/O radiation exposure (x-ray)": {
+        "type": "categorical",
+        "unique": 4,
+        "top_values": [
+            "Not applicable",
+            "No",
+            "Yes",
+            "-",
+            "nan"
+        ],
+        "missing": 3119
+    },
+    "Assisted conception IVF/ART": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Yes",
+            "No",
+            "nan"
+        ],
+        "missing": 3076
+    },
+    "Disorder Subclass": {
+        "type": "categorical",
+        "unique": 9,
+        "top_values": [
+            "Leigh syndrome",
+            "Mitochondrial myopathy",
+            "Cystic fibrosis",
+            "nan",
+            "Tay-Sachs"
+        ],
+        "missing": 3140
+    },
+    "Birth asphyxia": {
+        "type": "categorical",
+        "unique": 4,
+        "top_values": [
+            "Yes",
+            "Not available",
+            "No record",
+            "No",
+            "nan"
+        ],
+        "missing": 3130
+    },
+    "Maternal gene": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "Yes",
+            "No",
+            "nan"
+        ],
+        "missing": 3766
+    }
+}

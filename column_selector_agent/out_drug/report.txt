@@ -1,0 +1,63 @@
+RESEARCH-GRADE COLUMN SELECTION REPORT
+
+========================================================================
+Dataset: datasets\Drug\DDH Data with Properties.csv
+Rows: 104   Raw columns: 40
+
+Selected Columns:
+  InChI                        | categorical | top: 0, InChI=1S/C21H14Cl2N4OS2/c22-14-8-15(23)10-16(9-14)25-19(28)12-30-21-24-7-6-17(27-21)18-11-29-20(26-18)13-4-2-1-3-5-13/h1-11H,12H2,(H,25,28), InChI=1S/C21H15ClF3N5OS2/c1-30-18(21(23,24)25)10-15(29-30)17-7-6-16(33-17)14-8-9-26-20(28-14)32-11-19(31)27-13-4-2-12(22)3-5-13/h2-10H,11H2,1H3,(H,27,31), InChI=1S/C22H19ClN4OS4/c1-12-10-30-20(25-12)19-13(2)18(21(29-3)32-19)16-8-9-24-22(27-16)31-11-17(28)26-15-6-4-14(23)5-7-15/h4-10H,11H2,1-3H3,(H,26,28) | reason: Structural identifier (InChI) — not a target
+  InChIKey                     | categorical | top: __MISSING__, LILOEJREEQFTPM-UHFFFAOYSA-N, AWQBIBTZJKFLEW-UHFFFAOYSA-N, WRXXISITJDZVCL-UHFFFAOYSA-N | reason: Structural identifier (InChI) — not a target
+  IUPACName                    | categorical | top: __MISSING__, N-(3,5-dichlorophenyl)-2-[4-(2-phenyl-1,3-thiazol-4-yl)pyrimidin-2-yl]sulfanylacetamide, N-(4-chlorophenyl)-2-[4-[5-[1-methyl-5-(trifluoromethyl)pyrazol-3-yl]thiophen-2-yl]pyrimidin-2-yl]sulfanylacetamide, N-(4-chlorophenyl)-2-[4-[4-methyl-2-methylsulfanyl-5-(4-methyl-1,3-thiazol-2-yl)thiophen-3-yl]pyrimidin-2-yl]sulfanylacetamide | reason: Chemical name — identity
+  MolecularFormula             | categorical | top: C16H9ClN2O5, 0, C22H19ClN4OS4, C19H16ClN3O3S | reason: Preserved for modeling (data-driven)
+  pIC50                        | categorical | top: BLINDED, -1.176091259, -2.301029996, -1.602059991 | reason: Drug potency label
+  CID                          | numeric | range: 0.0 — 135427623.0 | reason: Preserved for modeling (data-driven)
+  SMILES                       | categorical | top: ClC1=CC(NC(=O)CSC2=NC=CC(=N2)C2=CSC(=N2)C2=CC=CC=C2)=CC(Cl)=C1, CN1N=C(C=C1C(F)(F)F)C1=CC=C(S1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1, CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1, CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=CC=C2Cl)=N1 | reason: Structural identifier (SMILES) — not a target
+  MolecularWeight              | numeric | range: 0.0 — 588.6 | reason: Physicochemical property
+  XLogP                        | numeric | range: -0.6 — 7.3 | reason: Lipophilicity (logP)
+  ExactMass                    | numeric | range: 212.007805 — 588.177766 | reason: Physicochemical property
+  MonoisotopicMass             | numeric | range: 212.007805 — 588.177766 | reason: Physicochemical property
+  TPSA                         | numeric | range: 34.1 — 197.0 | reason: Preserved for modeling (data-driven)
+  Complexity                   | numeric | range: 242.0 — 960.0 | reason: Preserved for modeling (data-driven)
+  HBondDonorCount              | numeric | range: 0.0 — 3.0 | reason: Preserved for modeling (data-driven)
+  HBondAcceptorCount           | numeric | range: 2.0 — 12.0 | reason: Preserved for modeling (data-driven)
+  RotatableBondCount           | numeric | range: 0.0 — 18.0 | reason: Preserved for modeling (data-driven)
+  HeavyAtomCount               | numeric | range: 13.0 — 41.0 | reason: Preserved for modeling (data-driven)
+  AtomStereoCount              | numeric | range: 0.0 — 2.0 | reason: Preserved for modeling (data-driven)
+  UndefinedAtomStereoCount     | numeric | range: 0.0 — 2.0 | reason: Preserved for modeling (data-driven)
+  BondStereoCount              | numeric | range: 0.0 — 2.0 | reason: Preserved for modeling (data-driven)
+  DefinedBondStereoCount       | numeric | range: 0.0 — 2.0 | reason: Preserved for modeling (data-driven)
+  Volume3D                     | numeric | range: 0.0 — 388.4 | reason: Preserved for modeling (data-driven)
+  XStericQuadrupole3D          | numeric | range: 5.3 — 35.53 | reason: Preserved for modeling (data-driven)
+  YStericQuadrupole3D          | numeric | range: 1.21 — 8.28 | reason: Preserved for modeling (data-driven)
+  ZStericQuadrupole3D          | numeric | range: 0.6 — 2.96 | reason: Preserved for modeling (data-driven)
+  FeatureCount3D               | numeric | range: 4.0 — 13.0 | reason: Preserved for modeling (data-driven)
+  FeatureAcceptorCount3D       | numeric | range: 1.0 — 7.0 | reason: Preserved for modeling (data-driven)
+  FeatureDonorCount3D          | numeric | range: 0.0 — 3.0 | reason: Preserved for modeling (data-driven)
+  FeatureAnionCount3D          | numeric | range: 0.0 — 2.0 | reason: Preserved for modeling (data-driven)
+  FeatureCationCount3D         | numeric | range: 0.0 — 2.0 | reason: Preserved for modeling (data-driven)
+  FeatureRingCount3D           | numeric | range: 2.0 — 6.0 | reason: Preserved for modeling (data-driven)
+  FeatureHydrophobeCount3D     | numeric | range: 0.0 — 2.0 | reason: Preserved for modeling (data-driven)
+  ConformerModelRMSD3D         | numeric | range: 0.6 — 1.4 | reason: Preserved for modeling (data-driven)
+  EffectiveRotorCount3D        | numeric | range: 0.0 — 12.0 | reason: Preserved for modeling (data-driven)
+  ConformerCount3D             | numeric | range: 1.0 — 10.0 | reason: Preserved for modeling (data-driven)
+
+Target Candidates (priority -> reason):
+  pIC50                        | P2 | unique=74    | mi=4.0849 | Drug potency label
+
+Final chosen target: pIC50
+
+========================================================================
+Dataset: datasets\Drug\DDH Data.csv
+Rows: 104   Raw columns: 3
+
+Selected Columns:
+  pIC50 (IC50 in microM)       | categorical | top: BLINDED, -1.176091259, -2.301029996, -1.602059991 | reason: Drug potency label
+  Compound No.                 | numeric | range: 1.0 — 104.0 | reason: Preserved for modeling (data-driven)
+  SMILES                       | categorical | top: ClC1=CC(NC(=O)CSC2=NC=CC(=N2)C2=CSC(=N2)C2=CC=CC=C2)=CC(Cl)=C1, CN1N=C(C=C1C(F)(F)F)C1=CC=C(S1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1, CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1, CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=CC=C2Cl)=N1 | reason: Structural identifier (SMILES) — not a target
+
+Target Candidates (priority -> reason):
+  pIC50 (IC50 in microM)       | P2 | unique=74    | mi=4.0849 | Drug potency label
+
+Final chosen target: pIC50 (IC50 in microM)
+
+========================================================================

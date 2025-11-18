@@ -1,0 +1,313 @@
+{
+  "files": [
+    {
+      "file": "datasets\\Drug\\DDH Data with Properties.csv",
+      "selected_columns": [
+        "InChI",
+        "InChIKey",
+        "IUPACName",
+        "MolecularFormula",
+        "pIC50",
+        "CID",
+        "SMILES",
+        "MolecularWeight",
+        "XLogP",
+        "ExactMass",
+        "MonoisotopicMass",
+        "TPSA",
+        "Complexity",
+        "HBondDonorCount",
+        "HBondAcceptorCount",
+        "RotatableBondCount",
+        "HeavyAtomCount",
+        "AtomStereoCount",
+        "UndefinedAtomStereoCount",
+        "BondStereoCount",
+        "DefinedBondStereoCount",
+        "Volume3D",
+        "XStericQuadrupole3D",
+        "YStericQuadrupole3D",
+        "ZStericQuadrupole3D",
+        "FeatureCount3D",
+        "FeatureAcceptorCount3D",
+        "FeatureDonorCount3D",
+        "FeatureAnionCount3D",
+        "FeatureCationCount3D",
+        "FeatureRingCount3D",
+        "FeatureHydrophobeCount3D",
+        "ConformerModelRMSD3D",
+        "EffectiveRotorCount3D",
+        "ConformerCount3D"
+      ],
+      "numeric_ranges": {
+        "CID": {
+          "min": 0.0,
+          "max": 135427623.0,
+          "mean": 35390892.692307696
+        },
+        "MolecularWeight": {
+          "min": 0.0,
+          "max": 588.6,
+          "mean": 367.8679807692308
+        },
+        "XLogP": {
+          "min": -0.6,
+          "max": 7.3,
+          "mean": 3.2079207920792085
+        },
+        "ExactMass": {
+          "min": 212.007805,
+          "max": 588.177766,
+          "mean": 378.26133475247525
+        },
+        "MonoisotopicMass": {
+          "min": 212.007805,
+          "max": 588.177766,
+          "mean": 378.22178029702974
+        },
+        "TPSA": {
+          "min": 34.1,
+          "max": 197.0,
+          "mean": 101.01782178217822
+        },
+        "Complexity": {
+          "min": 242.0,
+          "max": 960.0,
+          "mean": 576.3366336633663
+        },
+        "HBondDonorCount": {
+          "min": 0.0,
+          "max": 3.0,
+          "mean": 0.693069306930693
+        },
+        "HBondAcceptorCount": {
+          "min": 2.0,
+          "max": 12.0,
+          "mean": 5.732673267326732
+        },
+        "RotatableBondCount": {
+          "min": 0.0,
+          "max": 18.0,
+          "mean": 4.079207920792079
+        },
+        "HeavyAtomCount": {
+          "min": 13.0,
+          "max": 41.0,
+          "mean": 25.217821782178216
+        },
+        "AtomStereoCount": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.12871287128712872
+        },
+        "UndefinedAtomStereoCount": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.12871287128712872
+        },
+        "BondStereoCount": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.0297029702970297
+        },
+        "DefinedBondStereoCount": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.0297029702970297
+        },
+        "Volume3D": {
+          "min": 0.0,
+          "max": 388.4,
+          "mean": 269.81485148514855
+        },
+        "XStericQuadrupole3D": {
+          "min": 5.3,
+          "max": 35.53,
+          "mean": 11.7998
+        },
+        "YStericQuadrupole3D": {
+          "min": 1.21,
+          "max": 8.28,
+          "mean": 3.6864999999999997
+        },
+        "ZStericQuadrupole3D": {
+          "min": 0.6,
+          "max": 2.96,
+          "mean": 1.5716999999999999
+        },
+        "FeatureCount3D": {
+          "min": 4.0,
+          "max": 13.0,
+          "mean": 8.45
+        },
+        "FeatureAcceptorCount3D": {
+          "min": 1.0,
+          "max": 7.0,
+          "mean": 3.75
+        },
+        "FeatureDonorCount3D": {
+          "min": 0.0,
+          "max": 3.0,
+          "mean": 0.66
+        },
+        "FeatureAnionCount3D": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.23
+        },
+        "FeatureCationCount3D": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.32
+        },
+        "FeatureRingCount3D": {
+          "min": 2.0,
+          "max": 6.0,
+          "mean": 3.22
+        },
+        "FeatureHydrophobeCount3D": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.27
+        },
+        "ConformerModelRMSD3D": {
+          "min": 0.6,
+          "max": 1.4,
+          "mean": 0.7979999999999997
+        },
+        "EffectiveRotorCount3D": {
+          "min": 0.0,
+          "max": 12.0,
+          "mean": 4.965999999999999
+        },
+        "ConformerCount3D": {
+          "min": 1.0,
+          "max": 10.0,
+          "mean": 8.89
+        }
+      },
+      "categorical_domains": {
+        "InChI": {
+          "top_sample": [
+            "0",
+            "InChI=1S/C21H14Cl2N4OS2/c22-14-8-15(23)10-16(9-14)25-19(28)12-30-21-24-7-6-17(27-21)18-11-29-20(26-18)13-4-2-1-3-5-13/h1-11H,12H2,(H,25,28)",
+            "InChI=1S/C21H15ClF3N5OS2/c1-30-18(21(23,24)25)10-15(29-30)17-7-6-16(33-17)14-8-9-26-20(28-14)32-11-19(31)27-13-4-2-12(22)3-5-13/h2-10H,11H2,1H3,(H,27,31)",
+            "InChI=1S/C22H19ClN4OS4/c1-12-10-30-20(25-12)19-13(2)18(21(29-3)32-19)16-8-9-24-22(27-16)31-11-17(28)26-15-6-4-14(23)5-7-15/h4-10H,11H2,1-3H3,(H,26,28)",
+            "InChI=1S/C22H19ClN4OS4/c1-12-10-30-20(25-12)19-13(2)18(21(29-3)32-19)16-8-9-24-22(27-16)31-11-17(28)26-15-7-5-4-6-14(15)23/h4-10H,11H2,1-3H3,(H,26,28)",
+            "InChI=1S/C19H14ClN5OS3/c1-11-22-16(9-27-11)18-24-15(8-28-18)14-6-7-21-19(25-14)29-10-17(26)23-13-4-2-12(20)3-5-13/h2-9H,10H2,1H3,(H,23,26)"
+          ]
+        },
+        "InChIKey": {
+          "top_sample": [
+            "__MISSING__",
+            "LILOEJREEQFTPM-UHFFFAOYSA-N",
+            "AWQBIBTZJKFLEW-UHFFFAOYSA-N",
+            "WRXXISITJDZVCL-UHFFFAOYSA-N",
+            "NNVVKOVHRSDRSQ-UHFFFAOYSA-N",
+            "JEZYTEDGOJCVQS-UHFFFAOYSA-N"
+          ]
+        },
+        "IUPACName": {
+          "top_sample": [
+            "__MISSING__",
+            "N-(3,5-dichlorophenyl)-2-[4-(2-phenyl-1,3-thiazol-4-yl)pyrimidin-2-yl]sulfanylacetamide",
+            "N-(4-chlorophenyl)-2-[4-[5-[1-methyl-5-(trifluoromethyl)pyrazol-3-yl]thiophen-2-yl]pyrimidin-2-yl]sulfanylacetamide",
+            "N-(4-chlorophenyl)-2-[4-[4-methyl-2-methylsulfanyl-5-(4-methyl-1,3-thiazol-2-yl)thiophen-3-yl]pyrimidin-2-yl]sulfanylacetamide",
+            "N-(2-chlorophenyl)-2-[4-[4-methyl-2-methylsulfanyl-5-(4-methyl-1,3-thiazol-2-yl)thiophen-3-yl]pyrimidin-2-yl]sulfanylacetamide",
+            "N-(4-chlorophenyl)-2-[4-[2-(2-methyl-1,3-thiazol-4-yl)-1,3-thiazol-4-yl]pyrimidin-2-yl]sulfanylacetamide"
+          ]
+        },
+        "MolecularFormula": {
+          "top_sample": [
+            "C16H9ClN2O5",
+            "0",
+            "C22H19ClN4OS4",
+            "C19H16ClN3O3S",
+            "C11H7ClN2O2",
+            "C12H7ClN2O4"
+          ]
+        },
+        "pIC50": {
+          "top_sample": [
+            "BLINDED",
+            "-1.176091259",
+            "-2.301029996",
+            "-1.602059991",
+            "-1.204119983",
+            "-0.477121255"
+          ]
+        },
+        "SMILES": {
+          "top_sample": [
+            "ClC1=CC(NC(=O)CSC2=NC=CC(=N2)C2=CSC(=N2)C2=CC=CC=C2)=CC(Cl)=C1",
+            "CN1N=C(C=C1C(F)(F)F)C1=CC=C(S1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1",
+            "CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1",
+            "CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=CC=C2Cl)=N1",
+            "CC1=NC(=CS1)C1=NC(=CS1)C1=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=NC=C1",
+            "ClC1=CC=C(NC(=O)CSC2=NC=CC(=N2)C2=CC(=NO2)C2=CC=CC=C2)C=C1"
+          ]
+        }
+      },
+      "target_candidates": [
+        {
+          "column": "pIC50",
+          "priority": 2,
+          "unique": 74,
+          "mi": 4.0849,
+          "reason": "Drug potency label",
+          "score": 437.9642
+        }
+      ],
+      "final_target": "pIC50"
+    },
+    {
+      "file": "datasets\\Drug\\DDH Data.csv",
+      "selected_columns": [
+        "pIC50 (IC50 in microM)",
+        "Compound No.",
+        "SMILES"
+      ],
+      "numeric_ranges": {
+        "Compound No.": {
+          "min": 1.0,
+          "max": 104.0,
+          "mean": 52.5
+        }
+      },
+      "categorical_domains": {
+        "pIC50 (IC50 in microM)": {
+          "top_sample": [
+            "BLINDED",
+            "-1.176091259",
+            "-2.301029996",
+            "-1.602059991",
+            "-1.204119983",
+            "-0.477121255"
+          ]
+        },
+        "SMILES": {
+          "top_sample": [
+            "ClC1=CC(NC(=O)CSC2=NC=CC(=N2)C2=CSC(=N2)C2=CC=CC=C2)=CC(Cl)=C1",
+            "CN1N=C(C=C1C(F)(F)F)C1=CC=C(S1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1",
+            "CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=N1",
+            "CSC1=C(C(C)=C(S1)C1=NC(C)=CS1)C1=CC=NC(SCC(=O)NC2=CC=CC=C2Cl)=N1",
+            "CC1=NC(=CS1)C1=NC(=CS1)C1=NC(SCC(=O)NC2=CC=C(Cl)C=C2)=NC=C1",
+            "ClC1=CC=C(NC(=O)CSC2=NC=CC(=N2)C2=CC(=NO2)C2=CC=CC=C2)C=C1"
+          ]
+        }
+      },
+      "target_candidates": [
+        {
+          "column": "pIC50 (IC50 in microM)",
+          "priority": 2,
+          "unique": 74,
+          "mi": 4.0849,
+          "reason": "Drug potency label",
+          "score": 437.9642
+        }
+      ],
+      "final_target": "pIC50 (IC50 in microM)"
+    }
+  ],
+  "merged_combined_csv": "out_drug\\selected_combined.csv"
+}

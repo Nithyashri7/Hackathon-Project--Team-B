@@ -1,0 +1,24 @@
+======================================================================
+Life-Sciences Column Selection Report — Combined Clinical Mode
+Dataset: C:\Users\nithyashri.murali\Desktop\Hackathon Project\column_selector_agent\datasets\diabetes.csv
+Detected domain: diabetes — Metabolic indicators reflecting glycemic control and insulin resistance.
+Rows: 768   Columns (raw): 9
+
+Selection Table:
+
+| Column                   | Status            | Biological Reason                                                                                       |
+|--------------------------|-------------------|---------------------------------------------------------------------------------------------------------|
+| Outcome                  | Selected (TARGET) | This is the main outcome variable for clinical interpretation.                                          |
+| Glucose                  | Selected          | Glucose reflects insulin resistance or beta-cell dysfunction linked to long-term risk.                  |
+| BMI                      | Selected          | BMI reflects insulin resistance or beta-cell dysfunction linked to long-term risk.                      |
+| Age                      | Selected          | Age represents metabolic imbalance or glucose control influencing disease progression.                  |
+| DiabetesPedigreeFunction | Selected          | DiabetesPedigreeFunction reflects insulin resistance or beta-cell dysfunction linked to long-term risk. |
+| Pregnancies              | Rejected          | Pregnancies contributes minimal direct biological interpretation relative to selected markers.          |
+| BloodPressure            | Rejected          | BloodPressure contributes minimal direct biological interpretation relative to selected markers.        |
+| SkinThickness            | Rejected          | SkinThickness contributes minimal direct biological interpretation relative to selected markers.        |
+| Insulin                  | Rejected          | Insulin contributes minimal direct biological interpretation relative to selected markers.              |
+
+Notes:
+- Report is clinician-friendly (biology-based reasoning only).
+- Numeric stats stored separately in metadata.json.
+======================================================================

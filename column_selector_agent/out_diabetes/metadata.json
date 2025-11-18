@@ -1,0 +1,38 @@
+{
+    "__target__": "Outcome",
+    "Outcome": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.3489583333333333,
+        "missing": 0
+    },
+    "Glucose": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 199.0,
+        "mean": 120.89453125,
+        "missing": 0
+    },
+    "BMI": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 67.1,
+        "mean": 31.992578124999998,
+        "missing": 0
+    },
+    "Age": {
+        "type": "numeric",
+        "min": 21.0,
+        "max": 81.0,
+        "mean": 33.240885416666664,
+        "missing": 0
+    },
+    "DiabetesPedigreeFunction": {
+        "type": "numeric",
+        "min": 0.078,
+        "max": 2.42,
+        "mean": 0.47187630208333325,
+        "missing": 0
+    }
+}
