@@ -1,0 +1,11 @@
+{
+    "max_files": 50,
+    "missingness_threshold": 0.6,
+    "min_unique_fraction": 0.0005,
+    "mutual_info_threshold": 0.01,
+    "select_top_k_per_file": null,
+    "prefer_categorical": true,
+    "max_cardinality_for_categorical": 200,
+    "force_keep": [],
+    "force_drop": []
+}
