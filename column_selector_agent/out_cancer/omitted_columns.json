@@ -1,0 +1,24 @@
+{
+  "datasets\\Cancer_Data.csv": {
+    "id": {
+      "reason": "Administrative/identifier field — excluded to prevent leakage.",
+      "mi": 0.0,
+      "metrics": {
+        "nunique": 569,
+        "missing_fraction": 0.0,
+        "unique_fraction": 1.0,
+        "dtype": "int64"
+      }
+    },
+    "Unnamed: 32": {
+      "reason": "Administrative/identifier field — excluded to prevent leakage.",
+      "mi": 0.0,
+      "metrics": {
+        "nunique": 0,
+        "missing_fraction": 1.0,
+        "unique_fraction": 0.0,
+        "dtype": "float64"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+======================================================================
+Life-Sciences Friendly Column Selection Report — Combined Clinical Mode
+Dataset: C:\Users\nithyashri.murali\Desktop\Hackathon Project\column_selector_agent\datasets\Cancer_Data.csv
+Detected domain: oncology — Radiomic and tumor-level descriptors that map to malignancy, invasiveness and prognosis.
+Rows: 569   Columns (raw): 33
+
+Selection Table:
+
+| Column | Status | Biological Reason |
+|--------|--------|-------------------|
+| diagnosis | Selected (TARGET) | Target variable used for outcome modeling and clinical interpretation. |
+| area_worst | Selected | area_worst is a tumor size/shape metric—larger or irregular tumors associate with advanced stage and worse outcomes. |
+| perimeter_worst | Selected | perimeter_worst is a tumor size/shape metric—larger or irregular tumors associate with advanced stage and worse outcomes. |
+| concave points_worst | Selected | concave points_worst captures radiomic heterogeneity; heterogeneity often marks aggressive biology and treatment resistance. |
+| concave points_mean | Selected | concave points_mean captures radiomic heterogeneity; heterogeneity often marks aggressive biology and treatment resistance. |
+| radius_worst | Selected | radius_worst is a tumor size/shape metric—larger or irregular tumors associate with advanced stage and worse outcomes. |
+| radius_mean | Selected | radius_mean is a tumor size/shape metric—larger or irregular tumors associate with advanced stage and worse outcomes. |
+| concavity_mean | Selected | concavity_mean reflects tumor morphology that correlates with aggressiveness and likely impacts prognosis. |
+| area_se | Selected | area_se is a tumor size/shape metric—larger or irregular tumors associate with advanced stage and worse outcomes. |
+| perimeter_mean | Selected | perimeter_mean is a tumor size/shape metric—larger or irregular tumors associate with advanced stage and worse outcomes. |
+| area_mean | Selected | area_mean is a tumor size/shape metric—larger or irregular tumors associate with advanced stage and worse outcomes. |
+| concavity_worst | Selected | concavity_worst captures radiomic heterogeneity; heterogeneity often marks aggressive biology and treatment resistance. |
+| radius_se | Selected | radius_se is a tumor size/shape metric—larger or irregular tumors associate with advanced stage and worse outcomes. |
+| perimeter_se | Selected | perimeter_se is a tumor size/shape metric—larger or irregular tumors associate with advanced stage and worse outcomes. |
+| compactness_worst | Selected | compactness_worst is a size/shape metric indicating tumor burden and risk of local invasion. |
+| compactness_mean | Selected | compactness_mean captures radiomic heterogeneity; heterogeneity often marks aggressive biology and treatment resistance. |
+| texture_worst | Selected | texture_worst quantifies tissue heterogeneity; higher heterogeneity often indicates aggressive tumor biology and poor response to therapy. |
+| concavity_se | Selected | concavity_se captures radiomic heterogeneity; heterogeneity often marks aggressive biology and treatment resistance. |
+| concave points_se | Selected | concave points_se captures radiomic heterogeneity; heterogeneity often marks aggressive biology and treatment resistance. |
+| texture_mean | Selected | texture_mean quantifies tissue heterogeneity; higher heterogeneity often indicates aggressive tumor biology and poor response to therapy. |
+| id | Rejected | id is an administrative identifier without biological meaning; not helpful for clinical interpretation. |
+| smoothness_mean | Rejected | smoothness_mean measures a low-yield aggregate property that is often captured better by texture/shape metrics. |
+| symmetry_mean | Rejected | symmetry_mean measures a low-yield aggregate property that is often captured better by texture/shape metrics. |
+| fractal_dimension_mean | Rejected | fractal_dimension_mean is largely redundant with other radiomic descriptors and adds limited unique biological insight. |
+| texture_se | Rejected | texture_se is largely redundant with other radiomic descriptors and adds limited unique biological insight. |
+| smoothness_se | Rejected | smoothness_se measures a low-yield aggregate property that is often captured better by texture/shape metrics. |
+| compactness_se | Rejected | compactness_se is largely redundant with other radiomic descriptors and adds limited unique biological insight. |
+| symmetry_se | Rejected | symmetry_se is largely redundant with other radiomic descriptors and adds limited unique biological insight. |
+| fractal_dimension_se | Rejected | fractal_dimension_se measures a low-yield aggregate property that is often captured better by texture/shape metrics. |
+| smoothness_worst | Rejected | smoothness_worst is largely redundant with other radiomic descriptors and adds limited unique biological insight. |
+| symmetry_worst | Rejected | symmetry_worst measures a low-yield aggregate property that is often captured better by texture/shape metrics. |
+| fractal_dimension_worst | Rejected | fractal_dimension_worst is largely redundant with other radiomic descriptors and adds limited unique biological insight. |
+| Unnamed: 32 | Rejected | Unnamed: 32 is an administrative identifier without biological meaning; not helpful for clinical interpretation. |
+
+Notes:
+- This table is tailored for clinical / biological interpretation. It intentionally omits numeric summaries (min/max/mean).
+- Detailed numeric metadata for selected features is stored in metadata.json.
+======================================================================

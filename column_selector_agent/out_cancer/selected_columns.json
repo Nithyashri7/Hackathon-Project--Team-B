@@ -1,0 +1,22 @@
+[
+    "diagnosis",
+    "area_worst",
+    "perimeter_worst",
+    "concave points_worst",
+    "concave points_mean",
+    "radius_worst",
+    "radius_mean",
+    "concavity_mean",
+    "area_se",
+    "perimeter_mean",
+    "area_mean",
+    "concavity_worst",
+    "radius_se",
+    "perimeter_se",
+    "compactness_worst",
+    "compactness_mean",
+    "texture_worst",
+    "concavity_se",
+    "concave points_se",
+    "texture_mean"
+]

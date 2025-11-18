@@ -1,0 +1,144 @@
+{
+    "diagnosis": {
+        "type": "categorical",
+        "unique": 2,
+        "top_values": [
+            "B",
+            "M"
+        ],
+        "n_missing": 0
+    },
+    "area_worst": {
+        "type": "numeric",
+        "min": 185.2,
+        "max": 4254.0,
+        "mean": 880.5831282952548,
+        "n_missing": 0
+    },
+    "perimeter_worst": {
+        "type": "numeric",
+        "min": 50.41,
+        "max": 251.2,
+        "mean": 107.26121265377857,
+        "n_missing": 0
+    },
+    "concave points_worst": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 0.291,
+        "mean": 0.11460622319859401,
+        "n_missing": 0
+    },
+    "concave points_mean": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 0.2012,
+        "mean": 0.04891914586994728,
+        "n_missing": 0
+    },
+    "radius_worst": {
+        "type": "numeric",
+        "min": 7.93,
+        "max": 36.04,
+        "mean": 16.269189806678387,
+        "n_missing": 0
+    },
+    "radius_mean": {
+        "type": "numeric",
+        "min": 6.981,
+        "max": 28.11,
+        "mean": 14.127291739894552,
+        "n_missing": 0
+    },
+    "concavity_mean": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 0.4268,
+        "mean": 0.0887993158172232,
+        "n_missing": 0
+    },
+    "area_se": {
+        "type": "numeric",
+        "min": 6.802,
+        "max": 542.2,
+        "mean": 40.337079086116,
+        "n_missing": 0
+    },
+    "perimeter_mean": {
+        "type": "numeric",
+        "min": 43.79,
+        "max": 188.5,
+        "mean": 91.96903339191564,
+        "n_missing": 0
+    },
+    "area_mean": {
+        "type": "numeric",
+        "min": 143.5,
+        "max": 2501.0,
+        "mean": 654.8891036906855,
+        "n_missing": 0
+    },
+    "concavity_worst": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 1.252,
+        "mean": 0.27218848330404216,
+        "n_missing": 0
+    },
+    "radius_se": {
+        "type": "numeric",
+        "min": 0.1115,
+        "max": 2.873,
+        "mean": 0.40517205623901575,
+        "n_missing": 0
+    },
+    "perimeter_se": {
+        "type": "numeric",
+        "min": 0.757,
+        "max": 21.98,
+        "mean": 2.8660592267135327,
+        "n_missing": 0
+    },
+    "compactness_worst": {
+        "type": "numeric",
+        "min": 0.02729,
+        "max": 1.058,
+        "mean": 0.25426504393673116,
+        "n_missing": 0
+    },
+    "compactness_mean": {
+        "type": "numeric",
+        "min": 0.01938,
+        "max": 0.3454,
+        "mean": 0.10434098418277679,
+        "n_missing": 0
+    },
+    "texture_worst": {
+        "type": "numeric",
+        "min": 12.02,
+        "max": 49.54,
+        "mean": 25.677223198594024,
+        "n_missing": 0
+    },
+    "concavity_se": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 0.396,
+        "mean": 0.03189371634446397,
+        "n_missing": 0
+    },
+    "concave points_se": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 0.05279,
+        "mean": 0.011796137082601054,
+        "n_missing": 0
+    },
+    "texture_mean": {
+        "type": "numeric",
+        "min": 9.71,
+        "max": 39.28,
+        "mean": 19.289648506151142,
+        "n_missing": 0
+    }
+}
