@@ -1,0 +1,87 @@
+{
+    "__target__": "Stage",
+    "Stage": {
+        "type": "numeric",
+        "min": 1.0,
+        "max": 4.0,
+        "mean": 3.0242718446601944,
+        "missing": 6
+    },
+    "N_Days": {
+        "type": "numeric",
+        "min": 41.0,
+        "max": 4795.0,
+        "mean": 1917.7822966507176,
+        "missing": 0
+    },
+    "Albumin": {
+        "type": "numeric",
+        "min": 1.96,
+        "max": 4.64,
+        "mean": 3.4974401913875592,
+        "missing": 0
+    },
+    "Copper": {
+        "type": "numeric",
+        "min": 4.0,
+        "max": 588.0,
+        "mean": 97.64838709677419,
+        "missing": 108
+    },
+    "Platelets": {
+        "type": "numeric",
+        "min": 62.0,
+        "max": 721.0,
+        "mean": 257.02457002457004,
+        "missing": 11
+    },
+    "Prothrombin": {
+        "type": "numeric",
+        "min": 9.0,
+        "max": 18.0,
+        "mean": 10.731730769230769,
+        "missing": 2
+    },
+    "Bilirubin": {
+        "type": "numeric",
+        "min": 0.3,
+        "max": 28.0,
+        "mean": 3.2208133971291866,
+        "missing": 0
+    },
+    "Age": {
+        "type": "numeric",
+        "min": 9598.0,
+        "max": 28650.0,
+        "mean": 18533.351674641148,
+        "missing": 0
+    },
+    "SGOT": {
+        "type": "numeric",
+        "min": 26.35,
+        "max": 457.25,
+        "mean": 122.55634615384616,
+        "missing": 106
+    },
+    "Tryglicerides": {
+        "type": "numeric",
+        "min": 33.0,
+        "max": 598.0,
+        "mean": 124.70212765957447,
+        "missing": 136
+    },
+    "Alk_Phos": {
+        "type": "numeric",
+        "min": 289.0,
+        "max": 13862.4,
+        "mean": 1982.6557692307692,
+        "missing": 106
+    },
+    "ID": {
+        "type": "numeric",
+        "min": 1.0,
+        "max": 418.0,
+        "mean": 209.5,
+        "missing": 0
+    }
+}

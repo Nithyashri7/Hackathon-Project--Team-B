@@ -1,0 +1,35 @@
+======================================================================
+Life-Sciences Column Selection Report — Combined Clinical Mode
+Dataset: C:\Users\nithyashri.murali\Desktop\Hackathon Project\column_selector_agent\datasets\cirrhosis.csv
+Detected domain: hepatology — Liver function markers reflecting hepatocyte injury, cholestasis, and hepatic decompensation.
+Rows: 418   Columns (raw): 20
+
+Selection Table:
+
+| Column        | Status            | Biological Reason                                                                                 |
+|---------------|-------------------|---------------------------------------------------------------------------------------------------|
+| Stage         | Selected (TARGET) | This is the main outcome variable for clinical interpretation.                                    |
+| N_Days        | Selected          | N_Days signals portal hypertension or hepatocellular injury relevant to patient prognosis.        |
+| Albumin       | Selected          | Albumin measures hepatic protein synthesis; low levels reflect advanced liver dysfunction.        |
+| Copper        | Selected          | Copper signals portal hypertension or hepatocellular injury relevant to patient prognosis.        |
+| Platelets     | Selected          | Platelets reflects hepatic excretory or synthetic impairment, mapping to cirrhosis severity.      |
+| Prothrombin   | Selected          | Prothrombin reflects clotting factor synthesis; prolongation suggests hepatic synthetic failure.  |
+| Bilirubin     | Selected          | Bilirubin reflects impaired bile excretion; elevation signals worsening hepatic function.         |
+| Age           | Selected          | Age signals portal hypertension or hepatocellular injury relevant to patient prognosis.           |
+| SGOT          | Selected          | SGOT indicates deranged liver processing capacity, often preceding clinical deterioration.        |
+| Tryglicerides | Selected          | Tryglicerides signals portal hypertension or hepatocellular injury relevant to patient prognosis. |
+| Alk_Phos      | Selected          | Alk_Phos signals portal hypertension or hepatocellular injury relevant to patient prognosis.      |
+| ID            | Selected          | ID signals portal hypertension or hepatocellular injury relevant to patient prognosis.            |
+| Status        | Rejected          | Status does not directly reflect liver pathophysiology and was deprioritized.                     |
+| Drug          | Rejected          | Drug does not directly reflect liver pathophysiology and was deprioritized.                       |
+| Sex           | Rejected          | Sex does not directly reflect liver pathophysiology and was deprioritized.                        |
+| Ascites       | Rejected          | Ascites does not directly reflect liver pathophysiology and was deprioritized.                    |
+| Hepatomegaly  | Rejected          | Hepatomegaly does not directly reflect liver pathophysiology and was deprioritized.               |
+| Spiders       | Rejected          | Spiders is an identifier without biological relevance.                                            |
+| Edema         | Rejected          | Edema does not directly reflect liver pathophysiology and was deprioritized.                      |
+| Cholesterol   | Rejected          | Cholesterol does not directly reflect liver pathophysiology and was deprioritized.                |
+
+Notes:
+- Report is clinician-friendly (biology-based reasoning only).
+- Numeric stats stored separately in metadata.json.
+======================================================================
